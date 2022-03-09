@@ -1,0 +1,75 @@
+.father {
+    width: 60px;
+    height: 20px;
+    border: 1px solid black;
+}
+.son {
+    border: 1px solid black;
+    padding: 50px
+}
+.padre {
+    width: 500px;
+    height: 500px;
+    border: 1px dashed black;
+} 
+.allbox {
+
+    float: left;
+    padding: 10px;
+}
+.caja1  {
+    width: 230px;
+    height: 210px;
+    background-color: blue;
+}
+.caja2  {
+    background-color: red;
+    width: 230px;
+    height: 210px;
+}
+.caja3  {
+    background-color: salmon;
+    width: 210px;
+    height: 230px;
+}
+.caja4  {
+    background-color: green;
+    width: 210px;
+    height: 230px;
+}
+.borde_su_in {
+    border-top: 10px solid gray;
+    border-bottom: 10px solid gray;
+}
+.borde_iq_de {
+border-left: 10px solid cyan;
+border-right: 10px solid cyan;
+}
+.padre2  {
+    width: 400px;
+    height: 800px;
+    border: 3px solid gray;
+    margin: 0;
+    border-radius: 10px;
+}
+.padre2 .cascada {
+    width: 100%;
+    height: 65%;
+    margin: 0;
+}
+.padre2 .h1_p {
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+}
+.padre2 button {
+    width: 160px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(8, 122, 228);
+    border: none;
+    font-weight: bolder;
+    color: white;
+    margin-left: 15px;
+}
